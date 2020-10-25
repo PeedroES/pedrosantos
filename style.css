@@ -1,0 +1,128 @@
+@keyframes bt{
+    0%,20%,60%,100%{
+        -webkit-transform: translatey(0);
+        transform: translatey(0);
+    }
+    40%{
+        -webkit-transform: translatey(-20px);
+        transform: translatey(-20px);
+    }
+    80%{
+        -webkit-transform: translatey(-10px);
+        transform: translatey(-10px);
+    }
+}
+
+body{
+    background-color: rgb(170, 170, 170);
+}
+
+.container {
+    background-color: rgb(179, 179, 179);
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+
+#capa{
+width:990px;
+height:380px;
+margin-left:5px;
+}
+
+.bt1{
+    margin-left: 20%;
+    background: transparent;
+    border: transparent;
+}
+
+.bt1:hover{
+    animation: bt 1s;
+}
+
+.bt2{
+    background: transparent;
+    border: transparent;
+}
+
+.bt2:hover{
+    animation: bt 1s;
+}
+
+.bt3{
+    background: transparent;
+    border: transparent;
+}
+
+.bt3:hover{
+    animation: bt 1s;
+}
+
+.txt1{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-family: arial;
+    font-size: 25px;
+    border-bottom:3px solid;
+    border-top:3px solid;
+}
+
+#ft01{
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-bottom: 120px;
+}
+
+#box{
+    width:980px;
+    height:570px;
+    margin: 0 auto;
+	background-color:#fff;
+    border-radius: 10px;
+}
+
+#ctt{
+    margin-top: 250px;
+    margin-left: 25%;
+    margin-bottom: 40px;
+}
+
+#contato{
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+h2{
+    text-align: center;
+    font-family: arial;
+}
+
+#form_a{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-family: arial;
+    font-size: 25px;
+    border-bottom:1px solid;
+}
+
+#form_b{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-family: arial;
+    font-size: 25px;
+    border-bottom:1px solid;
+}
+
+#inf{
+    width: 400px;
+    position: absolute;
+    font-size: 23px;
+    color: snow;
+    left: 240px;
+    top: 770px;
+  }
